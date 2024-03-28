@@ -2,10 +2,17 @@
 text-align: center;
 }
 
+.nav-item .nav-link:hover {
+    cursor: pointer;
+    color: #7d59ff;
+    border-bottom: 1px solid #7d59ff;
+}
+
 .account {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .notifica {
@@ -17,7 +24,19 @@ text-align: center;
     border-radius: 100%;
     background-color: #f5f4f8;
     margin-right: 8px;
+    cursor: pointer;
+}
 
+.notifica i::after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    background-color: #7d59ff;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .notifica i {
@@ -33,4 +52,17 @@ text-align: center;
     background-position: center;
     background-size: cover;
     border-radius: 100%;
+    cursor: pointer;
 }
+
+.user::after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    bottom: 3px;
+    right: 1px;
+    background-color: #1acb98;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
