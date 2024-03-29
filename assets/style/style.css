@@ -1,5 +1,15 @@
+.nav-link img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.nav-link img:hover {
+    cursor: pointer;
+}
+
 .navbar-nav {
-text-align: center;
+    text-align: center;
 }
 
 .nav-item .nav-link:hover {
@@ -27,6 +37,12 @@ text-align: center;
     cursor: pointer;
 }
 
+.notifica i {
+    color: #a8a3b9;
+    text-align: center;
+    font-size: 15px;
+}
+
 .notifica i::after {
     content: '';
     height: 12px;
@@ -37,12 +53,6 @@ text-align: center;
     background-color: #7d59ff;
     border-radius: 10px;
     border: 2px solid white;
-}
-
-.notifica i {
-    color: #a8a3b9;
-    text-align: center;
-    font-size: 15px;
 }
 
 .user {
@@ -65,4 +75,12 @@ text-align: center;
     background-color: #1acb98;
     border-radius: 10px;
     border: 2px solid white;
-  }
+}
+
+.user .dropdown-menu {
+    right: 0;
+}
+
+.hero {
+    background-color: #7d59ff;
+}
