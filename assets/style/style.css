@@ -77,10 +77,72 @@
     border: 2px solid white;
 }
 
-.user .dropdown-menu {
-    right: 0;
+.connesso {
+    position: relative;
+    align-items: center;
+}
+
+.connesso h5 {
+    font-size: 15px;
+}
+
+.connesso p {
+    font-size: 13px;
+}
+
+.user-icon {
+    width: 45px;
+    height: 45px;
+    background-image: url(/assets/img/avatar-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.user-icon::after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    background-color: #1acb98;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.dropdown-menu .bi {
+    padding-right: 10px;
 }
 
 .hero {
     background-color: #7d59ff;
+}
+
+.my-auto h1 {
+    font-weight: bold;
+}
+
+.bg-green {
+    background-color: #19cb98;
+}
+
+.btn:hover {
+    background-color: #19cb98;
+}
+
+.dettagli {
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ffeeda;
+    color: #c38136;
 }
